@@ -27,13 +27,27 @@
             line-height: 1.65em;
           }
 
+          a {
+            color: #E50914;
+          }
+
+          a:hover,
+          a:focus {
+            text-decoration: none;
+          }
+
           .social {
-            padding: 12px;
+            padding: 4px;
             opacity: .75;
           }
 
           .social li {
             display: inline-block;
+          }
+
+          .social li:hover a,
+          .social li:focus a {
+            opacity: .85;
           }
 
           #header {
@@ -51,18 +65,19 @@
         </style>
     </head>
     <body>
-      <header id="header"></header>
-      <h1>Hi, I'm Brian.</h1>
-      <p>Currently working in production management for animated features at <a href="https://www.netflix.com/">Netflix</a>. Learning Python and web development. Based in Los Angeles.
-      <!-- <p>Currently working in feature animation production management at <a href="https://www.netflix.com/">Netflix</a>. Learning Python and web development. Based in Los Angeles. -->
-      <!-- <p>I'm a feature animation production manager based in Los Angeles. I am learning Python and web development. I am currently working at <a href="https://www.netflix.com/">Netflix</a>. -->
-      </p>
+      <div id="content">
+        <header id="header"></header>
+        <h1>Hi, I'm Brian.</h1>
+        <p>Currently working in production management for animated features at <a href="https://www.netflix.com/">Netflix</a>. Learning Python and web development. Based in Los Angeles.
+        </p>
 
-      <ul class="social">
-        <li id="linkedin"><a href="https://www.linkedin.com/in/brianimate/"><img src="./icons/linkedin.svg" alt="LinkedIn" width="37px"></a></li>
-        <li id="github"><a href="https://github.com/briank1458"><img src="./icons/github.svg" alt="GitHub" width="50px"></a></li>
-        <li id="imdb"><a href="https://www.imdb.com/name/nm6021294/"><img src="./icons/imdb.png" alt="IMDb" width="33px"></a></li>
-      </ul>
+        <ul class="social">
+          <li id="linkedin"><a href="https://www.linkedin.com/in/brianimate/"><img src="./icons/linkedin.svg" alt="LinkedIn" width="37px"></a></li>
+          <li id="github"><a href="https://github.com/briank1458"><img src="./icons/github.svg" alt="GitHub" width="50px"></a></li>
+          <li id="imdb"><a href="https://www.imdb.com/name/nm6021294/"><img src="./icons/imdb.png" alt="IMDb" width="33px"></a></li>
+        </ul>
 
+        <footer id="footer"></footer>
+      <div>
     </body>
 </html>
