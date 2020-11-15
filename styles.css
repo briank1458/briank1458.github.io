@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background: white;
+  color: #333;
+  font-family: Merriweather, sans-serif;
+}
+
+p {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  line-height: 1.65em;
+}
+
+a {
+  color: #E50914;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.social {
+  padding: 4px;
+  opacity: .75;
+}
+
+.social li {
+  display: inline-block;
+}
+
+.social li:hover a,
+.social li:focus a {
+  opacity: .85;
+}
+
+#header {
+  height: 50px;
+}
+
+#linkedin {
+  overflow: auto;
+}
+
+#imdb {
+  overflow: auto;
+}
