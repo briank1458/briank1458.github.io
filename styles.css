@@ -27,6 +27,37 @@ a:focus {
   text-decoration: none;
 }
 
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-wrapper {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid red;
+}
+
+.header-container {
+  border: 2px solid violet;
+}
+
+.title-container {
+  border: 2px solid orange;
+}
+
+.main-container {
+  border: 2px solid yellow;
+}
+
+.social-container {
+  border: 2px solid blue;
+}
+
 .social {
   padding: 4px;
   opacity: .75;
