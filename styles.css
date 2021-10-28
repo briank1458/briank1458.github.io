@@ -81,3 +81,18 @@ a:focus {
 #header {
   height: 75px;
 }
+
+/* mobile styles */
+@media only screen and (max-width: 400px) {
+
+}
+
+/* tablet styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+}
+
+/* desktop styles */
+@media only screen and (min-width: 961px) {
+  
+}
